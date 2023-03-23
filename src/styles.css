@@ -1,0 +1,111 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1257951336/photo/transparent-umbrella-under-rain-against-water-drops-splash-background-rainy-weather-concept.jpg?s=612x612&w=0&k=20&c=lNvbIw1wReb-owe7_rMgW8lZz1zElqs5BOY1AZhyRXs=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+i {
+  display: block;
+  margin: 0 5px 0 400px;
+}
+h4 {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 15px auto 0;
+}
+h1 {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 100;
+  line-height: normal;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+h5 {
+  padding: 0 15px;
+  margin-top: 60px 0 0 10px;
+}
+
+.container {
+  margin: 0 auto;
+}
+.formInput {
+  margin-top: 10px;
+  display: flex;
+}
+
+.form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.textForm {
+  height: 45px;
+  font-size: 25px;
+  border: 1px solid #bbe4e9;
+}
+
+.submitBtn {
+  height: 45px;
+  font-size: 25px;
+  color: #fff;
+  background: #206b75;
+  border: 1px solid #bbe4e9;
+  border-radius: 0 20px 20px 0;
+}
+.formBtn {
+  height: 45px;
+  font-size: 15px;
+  color: #fff;
+  background: rgb(80, 80, 37);
+  border: 1px solid #bbe4e9;
+  border-radius: 0 20px 20px 0;
+}
+.card {
+  margin: 30px auto;
+  border: 1px solid #bbe4e9;
+}
+.location-details {
+  margin: 0 auto;
+}
+.weather-condition {
+  text-align: center;
+}
+.date {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.card-sec1 {
+  font-weight: 200;
+}
+.card-view {
+  text-align: right;
+}
+.sunny {
+  font-size: 30px;
+}
+.weather-view {
+  margin: 100px 0 0;
+}
+.moji_1 {
+  font-size: 35px;
+  margin: 0 auto;
+}
+.days {
+  display: block;
+}
+
+#degree {
+  text-decoration: none;
+}
+#degree:hover {
+  text-decoration: underline;
+}
+#fah {
+  text-decoration: none;
+}
+#fah:hover {
+  text-decoration: underline;
+}

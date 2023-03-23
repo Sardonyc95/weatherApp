@@ -38,12 +38,13 @@ h5 {
   line-height: normal;
 }
 .textForm {
+  font-size: 20px;
   width: 600px;
   height: 55px;
   background: #fff;
   border: 1px solid #bbe4e9;
   margin: 50px auto;
-  border-radius: 20px 0 0 20px;
+  border-radius: 15px 0 0 15px;
 }
 .submitBtn {
   width: 100px;
@@ -142,4 +143,9 @@ h5 {
 }
 .moji_1 .moji_2 {
   margin: 0 auto;
+}
+.author {
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 900;
 }

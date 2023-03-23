@@ -30,7 +30,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="formInput">
+      <div class="search">
         <form action="/submit" class="form" id="search-form">
           <input
             type="text"
@@ -47,86 +47,149 @@
             class="submitBtn"
           />
         </form>
-        <button class="formBtn" id="form">Current Location</button>
+        <div class="buttonLocate">
+          <button class="formBtn" id="form">Current Location</button>
+        </div>
       </div>
-      <div class="display">
-        <div class="card">
-          <div class="card-body">
-            <h4>France</h4>
-            <section class="location-details">
-              <div class="row">
-                <div class="col-8">
-                  <div class="card-sec1">
-                    <p class="locate">
-                      Location:
-                      <span class="city" id="cityDisplay"> Paris </span>
+      <div class="row">
+        <div class="col-lg-7 display">
+          <div class="card">
+            <div class="card-body">
+              <h4>Nigeria</h4>
+              <section class="location-details">
+                <div class="card-sec1">
+                  <p class="locate">
+                    Location:
+                    <br />
+                    <span class="text" id="cityDisplay">Ikosi Ketu, Lagos</span>
+                  </p>
+                  <p class="date">20 February, 23:08</p>
+                </div>
+                <div class="card-view">
+                  <h1>
+                    <span class="sunny">🌞</span>
+                    <span id="temperature">8 </span><a href="" id="degree">°C</a
+                    ><span>|</span><a href="" id="fah">°F</a>
+                  </h1>
+                  <span>Feels like 31°</span>
+                </div>
+              </section>
+
+              <section class="weather-view">
+                <div class="row weather-condition">
+                  <div class="col monday">
+                    <p>
+                      02:00
+                      <span class="days">MON</span>
                     </p>
-                    <p class="date" id="dateTime">25 February, 18:53</p>
+                    <div class="moji_1">☀</div>
+                    <p>38° 21°</p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      05:00
+                      <span class="days"> TUE </span>
+                    </p>
+                    <div class="moji_1">☀</div>
+                    <p>38° 21°</p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      08:00
+                      <span class="days"> WED </span>
+                    </p>
+                    <div class="moji_1">💨</div>
+                    <p>37° 22°</p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      11:00
+                      <span class="days"> THU </span>
+                    </p>
+                    <div class="moji_1">💨</div>
+                    <p>38° 22°</p>
+                  </div>
+                  <div class="col friday">
+                    <p>
+                      14:00
+                      <span class="days"> FRI </span>
+                    </p>
+                    <div class="moji_1">💨</div>
+                    <p>38° 22°</p>
                   </div>
                 </div>
-                <div class="col-4">
-                  Precipitation: <span id="precipite"></span> <br />
-                  Humidity:
-                  <span id="humid"></span>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 display">
+          <div class="card">
+            <div class="card-body2">
+              <div class="card-sec2">
+                <h4 class="today">Weather forecast</h4>
+                <br />
+                <h6 class="summary">Summary</h6>
+                <p>
+                  <span>Precipitation: 0%</span>
                   <br />
-                  Wind: <span id="wind"></span>
+                  Humidity: <span id="humid">15</span>%
+                  <br />
+                  Wind: <span id="windSpeed">13</span>km/h
+                </p>
+                <div class="WD-today">
+                  <h6 class="summary">
+                    20 February, 2023
+                    <br />
+                    Monday
+                  </h6>
+                  <br />
+                  <br />
+                  <div class="row forecast">
+                    <div class="col-3">
+                      <p>Morning</p>
+                      <div class="moji_2">☀</div>
+                      <p>
+                        27°
+                        <span> 0mm </span>
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <p>Noon</p>
+                      <div class="moji_2">☀</div>
+                      <p>
+                        33°
+                        <span> 0mm </span>
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <p>Evening</p>
+                      <div class="moji_2">☀</div>
+                      <p>
+                        29°
+                        <span> 0mm </span>
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <p>Night</p>
+                      <div class="moji_2">☽</div>
+                      <p>
+                        28°
+                        <span> 0mm </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <div class="card-view">
-                <h1>
-                  <span class="sunny">🌞</span>
-                  <span id="temperature">8</span><a href="" id="degree">°C</a
-                  ><span>|</span><a href="" id="fah">°F</a>
-                </h1>
-                <span>Feels like 10°</span>
+              <div class="info">
+                <h5 class="summary">The local weather in Nigeria today</h5>
+                <p class="text-1">
+                  The weather today in Nigeria will be very hot with
+                  temperatures reaching 33°C. During the evening and night time
+                  the temperatures will drop to 27°C.
+                </p>
               </div>
-            </section>
-
-            <section class="weather-view">
-              <div class="row weather-condition">
-                <div class="col monday">
-                  <p>
-                    19:00
-                    <span class="days">SAT</span>
-                  </p>
-                  <div class="moji_1">☀</div>
-                  <p>8° 0°</p>
-                </div>
-                <div class="col">
-                  <p>
-                    22:00
-                    <span class="days">SUN</span>
-                  </p>
-                  <div class="moji_1">☀</div>
-                  <p>6° -1°</p>
-                </div>
-                <div class="col">
-                  <p>
-                    01:00
-                    <span class="days">MON</span>
-                  </p>
-                  <div class="moji_1">💨</div>
-                  <p>7° -2°</p>
-                </div>
-                <div class="col">
-                  <p>
-                    4:00
-                    <span class="days">TUE</span>
-                  </p>
-                  <div class="moji_1">💨</div>
-                  <p>6° -1°</p>
-                </div>
-                <div class="col friday">
-                  <p>
-                    7:00
-                    <span class="days">WED</span>
-                  </p>
-                  <div class="moji_1">💨</div>
-                  <p>8° 0°</p>
-                </div>
-              </div>
-            </section>
+            </div>
           </div>
         </div>
       </div>

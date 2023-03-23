@@ -9,9 +9,9 @@ i {
 }
 h4 {
   font-family: "Azeret Mono", monospace;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
   margin: 15px auto 0;
 }
 h1 {
@@ -19,63 +19,77 @@ h1 {
   font-weight: 100;
   line-height: normal;
 }
-h6 {
-  font-size: 20px;
-  font-weight: 700;
-}
+
 h5 {
   padding: 0 15px;
   margin-top: 60px 0 0 10px;
+  font-weight: 900;
+  font-family: monospace;
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0;
 }
-.formInput {
-  margin-top: 10px;
-  display: flex;
-}
-
-.form {
+.search {
   max-width: 100%;
-  margin: 0 auto;
+  display: flex;
+  margin: 0;
+  font-size: 16px;
+  line-height: normal;
 }
 .textForm {
-  height: 45px;
-  font-size: 25px;
+  width: 600px;
+  height: 55px;
+  background: #fff;
   border: 1px solid #bbe4e9;
+  margin: 50px auto;
+  border-radius: 20px 0 0 20px;
 }
-
 .submitBtn {
-  height: 45px;
-  font-size: 25px;
+  width: 100px;
+  height: 55px;
   color: #fff;
-  background: #206b75;
+  background: rgb(127, 167, 167);
   border: 1px solid #bbe4e9;
+  margin: 50px auto;
   border-radius: 0 20px 20px 0;
+}
+.buttonLocate {
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  margin: 50px 0 50px 70px;
 }
 .formBtn {
-  height: 45px;
+  height: 55px;
+  width: 150px;
   font-size: 15px;
   color: #fff;
-  background: rgb(80, 80, 37);
+  background: rgb(236, 236, 102);
   border: 1px solid #bbe4e9;
-  border-radius: 0 20px 20px 0;
-}
-.card {
-  margin: 30px auto;
-  border: 1px solid #bbe4e9;
+  padding: 10px;
 }
 .location-details {
   margin: 0 auto;
+}
+.text {
+  font-weight: 500;
 }
 .weather-condition {
   text-align: center;
 }
 .date {
-  font-size: 15px;
-  font-weight: 100;
-  line-height: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.card-body {
+  border: 1px solid #bbe4e9;
+  background: #bbe4e9;
+}
+.card-body2 {
+  border: 1px solid #bbe4e9;
+  background: rgb(127, 167, 167);
 }
 .card-sec1 {
   font-weight: 200;
@@ -84,28 +98,48 @@ h5 {
   text-align: right;
 }
 .sunny {
-  font-size: 30px;
+  font-size: 70px;
 }
 .weather-view {
   margin: 100px 0 0;
 }
 .moji_1 {
-  font-size: 35px;
-  margin: 0 auto;
+  font-size: 50px;
+}
+.moji_2 {
+  font-size: 50px;
 }
 .days {
   display: block;
 }
 
-#degree {
-  text-decoration: none;
+.today {
+  text-align: center;
+  margin: 0;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
 }
-#degree:hover {
-  text-decoration: underline;
+.forecast {
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: #bbe4e9;
+  border: 1px solid rgb(127, 167, 167);
+  border-radius: 20px 0 20px 0;
+  box-shadow: 3px 3px 3px 3px rgb(201, 204, 204);
 }
-#fah {
-  text-decoration: none;
+.summary {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: 900;
 }
-#fah:hover {
-  text-decoration: underline;
+.WD-today {
+  margin: 20px auto 10px;
+}
+.text-1 {
+  padding: 0 15px;
+}
+.moji_1 .moji_2 {
+  margin: 0 auto;
 }

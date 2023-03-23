@@ -24,6 +24,7 @@ function showCurrentTemp(response) {
   console.log(response);
   let temperature = Math.round(response.data.main.temp);
   let humidity = response.data.main.humidity;
+  let windSpeed = response.data.wind.speed;
 
   let country = response.data.sys.country;
   let city = response.data.name;
@@ -32,6 +33,8 @@ function showCurrentTemp(response) {
   span.innerHTML = temperature;
   let humid = document.querySelector("#humid");
   humid.textContent = humidity;
+  let wind = document.querySelector("#windSpeed");
+  wind.textContent = windSpeed;
   let showCountry = document.querySelector("h4");
   showCountry.innerHTML = country;
   let showCity = document.querySelector("#cityDisplay");
